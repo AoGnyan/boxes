@@ -1,11 +1,11 @@
-@import url('@import url('https://fonts.googleapis.com/css2?family=Arvo&effect=font-effect-anaglyph&family=Crimson+Text:ital,wght@1,600&display=swap');
+@import url('@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap&effect=font-effect-anaglyph');
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Arvo';
+  font-family: 'Crimson Text';
   font-effect: 'anaglyph'
   display: flex;
   align-items: center;
