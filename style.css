@@ -1,22 +1,24 @@
-@import url('@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&effect=font-effect-anaglyph');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&effect=anaglyph');
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Crimson Text';
+
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
   overflow: hidden;
   margin: 0;
+  background: #dacef7b4;
 }
 
 .container {
   display: flex;
   width: 90vw;
+  
 }
 
 .panel {
@@ -25,11 +27,11 @@ body {
   background-repeat: no-repeat;
   height: 80vh;
   border-radius: 50px;
-  color: #cab3ffb4;
   cursor: pointer;
   flex: 0.5;
   margin: 10px;
   position: relative;
+  font-family: 'Crimson Text';
   -webkit-transition: all 700ms ease-in;
 }
 
